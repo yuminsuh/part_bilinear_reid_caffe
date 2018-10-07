@@ -3,7 +3,7 @@
 2. Run ```mars_eval.py``` to extract features. It will produce mars_feat.mat in the directory. To run the code, you need to prepare the followings:
 
     - Download and build custom [caffe](https://github.com/yuminsuh/caffe_retrieval)
-    - Download the [dataset](http://www.liangzheng.com.cn/Project/project_mars.html) and extract files to MARS_DATASET_ROOT. The data structure should look like ```MARS_DATASET_ROOT/bbox_test/0000/*.jpg```.
+    - Download the MARS [dataset](http://www.liangzheng.com.cn/Project/project_mars.html) and extract files to MARS_DATASET_ROOT. The directory should look like MARS_DATASET_ROOT/bbox_test/0000/*.jpg
     - Set paths, CAFFE_ROOT and MARS_DATASET_ROOT, in mars_eval.py
 
 # How to evaluate
