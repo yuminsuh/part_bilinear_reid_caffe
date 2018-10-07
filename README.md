@@ -7,5 +7,5 @@
     - Set paths, CAFFE_ROOT and MARS_DATASET_ROOT, in mars_eval.py
 
 # How to evaluate
-    1. Extract feutures or download [features]() to mars_feat.mat
-    2. Run ```mars_eval.m``` to get the accuracy
+1. Extract feutures or download [features](https://www.dropbox.com/s/i38ofh0vhm8zalc/mars_feat.mat?dl=0) to mars_feat.mat
+2. Run ```mars_eval.m``` to get the accuracy
